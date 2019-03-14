@@ -15,7 +15,7 @@ The script will then check whether
 the string of remaining 35 chracters of the password hash
 are within the server response.
 
-Usage:
+### Usage:
 Code below will ask you for a password to test.
 The input will be collected using ``getpass``
 
@@ -49,11 +49,11 @@ Author: Erkan Demiralay
 
 License: MIT
 
-comes with taco - flavored kisses
+comes with taco flavored kisses
 
-Also Interesting:
+### Also Interesting:
 
-[lionheart/pwnedpasswords]https://github.com/lionheart/pwnedpasswords)
+[lionheart/pwnedpasswords](https://github.com/lionheart/pwnedpasswords)
 
 [DanielVeldkamp/PwnedPasswordsChecker](https://github.com/DanielVeldkamp/PwnedPasswordsChecker)
 
