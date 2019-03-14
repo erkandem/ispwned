@@ -1,9 +1,15 @@
 #!/usr/bin/python3
 """
-NOTE: 
-    Terminal/CMD input is likely to be saved in log files.
-    Also think of error log.
-    Rather 
+ispwned
+=======
+
+Query pwnedpasswords.com API from CLI
+
+Warning:
+
+   Command line input or potentially thrown errors 
+   are likely to be saved in log files.
+
 
 Calculates the SHA1 hash of a string (password) and 
 queries pwnedpassword.com  using the first five characters 
@@ -14,6 +20,9 @@ the string of remaining 35 chracters of the password hash
 are within the server response.
 
 Usage:
+
+Code below will ask you for a password to test.
+The input will be collected using ``getpass``
    
    $ python ispwnd.py
    
@@ -28,17 +37,28 @@ Output:
    
    first_5  next_35                                is_in_database
    535b3    babd831ddf0fc043d4e69bf614dfcaed792    True
+   
 
 Response:
 
-   True  - Compromosid
-   False - Not in Database
-   None  - Script or server side error
-   
-   
+ - True  - compromised (potentially vulnerable to dict attack - change pw)
+ 
+ - False - not in database (save from dict attack)
+ 
+ - None  - script or server side error
+  
 
 Author: Erkan Demiralay
 License: MIT
+
+
+Also Interesting:
+
+[lionheart/pwnedpasswords]https://github.com/lionheart/pwnedpasswords)
+
+[DanielVeldkamp/PwnedPasswordsChecker](https://github.com/DanielVeldkamp/PwnedPasswordsChecker)
+
+
 
 """
 import getpass
