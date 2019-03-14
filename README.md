@@ -51,6 +51,12 @@ License: MIT
 
 comes with taco flavored kisses
 
+### References:
+   
+https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/
+
+https://docs.python.org/3.7/library/getpass.html
+   
 ### Also Interesting:
 
 [lionheart/pwnedpasswords](https://github.com/lionheart/pwnedpasswords)
