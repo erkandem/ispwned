@@ -29,7 +29,7 @@ The input will be collected using ``getpass``
 
 Example:
    
-   $ python ispawned.py
+   $ python ispwned.py
    Password: jenniferlopez
    
 
