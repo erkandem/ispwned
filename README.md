@@ -26,7 +26,7 @@ $ python ispwnd.py
 Example:
 
 ```bash   
-$ python ispawned.py
+$ python ispwned.py
 Password: jenniferlopez
 ```
 
